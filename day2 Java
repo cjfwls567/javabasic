@@ -1,0 +1,41 @@
+import java.util.*;//입력 기능을 가져온다
+
+
+class Main {
+  public static void main(String[] args) {
+  Scanner stdIn = new Scanner(System.in);//입력 객체 생성    
+  System.out.println("삼각형의 넓이를 구합니다.");
+  System.out.print("밑변:");
+  double x = stdIn.nextDouble();
+  System.out.print("높이:");
+  double y = stdIn.nextDouble();
+  System.out.println("넓이는"+((x * y)/2)+ "입니다.");      
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    // System.out.print("x값") //x값 입력메시지
+  //   double x = stdIn.nextDouble(9.75); //입력한 실숫값을 x에 저장한다
+  // System.out.print("y값") //y값 입력메시지
+  //   double y = StdIn.nextDouble(2.5);
+  //   System.out.print("(x + y");
+    
+
+
+
+    // System.out.print("정수값")
+    // int x = stdIn.nextInt(); // 입력받은 정수값을 x에 저장한다
+
+    // System.out.println()
+    
+      
+      }
+}
